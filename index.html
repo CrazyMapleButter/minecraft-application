@@ -224,7 +224,7 @@
     function showCodePrompt() {
       const code = prompt("Enter mod access code:");
       if (code) {
-        fetch("https://a0dcbc94-3e0a-4123-a7f7-5287b4c1de46-00-2uwnubtpgsn8.kirk.replit.dev:5000/auth", {
+        fetch("https://a0dcbc94-3e0a-4123-a7f7-5287b4c1de46-00-2uwnubtpgsn8.kirk.replit.dev:5000/verify-mod-code", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ code })
