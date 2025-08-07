@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mod Login</title>
+</head>
+<body style="background-color: black; color: white;">
+  <h2>Mod Dashboard Login</h2>
+  {% if error %}
+    <p style="color: red;">{{ error }}</p>
+  {% endif %}
+  <form method="POST">
+    <label>Enter Mod Code:</label>
+    <input name="code" type="password" required>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>

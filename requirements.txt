@@ -1,0 +1,6 @@
+flask-cors
+discord-py
+flask
+requests
+discord.py
+python-dotenv
